@@ -30,7 +30,7 @@ This is the screenshot for the site as well as the path to the images
 
 # Deployment 
 This is a link to the deployed site
-https://krivera2394.github.io/Keanus-Portfolio/
+https://krivera2394.github.io/KeanuR-Portfolio/
 
 This is a link to the sites repo on Github
-https://github.com/KRivera2394/Keanus-Portfolio
+https://github.com/KRivera2394/KeanuR-Portfolio
