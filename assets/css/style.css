@@ -1,0 +1,323 @@
+:root{
+    --SkyBlue : #87cefa;
+    --DarkBlue : #2a2840;
+    --MidBlue: #4f4c76;
+}
+
+
+
+/* HEADER CONTAINER */
+.theHeader{
+    color: aliceblue;
+    background-color: rgb(42, 40, 64);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* H1 IN HEADER */
+.headerH1{
+    color: #2a2840;
+    background-color:  lightskyblue;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-right: 2%;
+    z-index: 1;
+    font-size: 5vh;
+}
+
+/* NAV IN HEADER */
+nav{
+    flex: 1 1 50%;
+}
+
+/* UL IN HEADER; */
+.headerNav{
+    color: #87cefa;
+    text-decoration: underline;
+    list-style: none;
+    padding-top: 2%;
+    padding-right: 2%;
+    height: 100%;
+    font-size: 5vh;
+    gap: 3%;
+    margin: 0%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+
+
+/* BLUE CIRCULAR BACKGROUND */
+.backgroundSectionImage{
+    background-image: url(../images/BlueBackground.jpg);
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+}
+
+.profilePic{
+    flex: 1 1 30%;
+    height: 250px;
+    padding-left: 5%;
+    border-radius: 10px;
+    
+    
+    
+    
+}
+
+/* WELCOME, YOU ARE */
+.headingOnBackground{
+    
+    background-color: var(--SkyBlue);
+    margin-right: 5%;
+    font-size: 3em;
+    position: relative;
+    color:var(--DarkBlue);
+    border: 1px solid white;
+}
+
+
+/* ABOUT ME CONTAINER */
+.aboutMe{
+    display: flex;
+    color: var(--MidBlue);
+    align-items: center;
+}
+/* ABOUT ME HEADER */
+.aboutHeader{
+    padding-right: 2%;
+    text-align: end;
+    border-right: 3px solid #2a2840;
+    flex: 1 1 30%;
+    font-size: 5vw;
+
+}
+/* ABOUT ME PARAGRAPH */
+.aboutParagraph{
+    padding-left: 4%;
+    font-size: 2em;
+}
+
+/* WORK CONTAINER */
+.work{
+    display: flex;
+    color: var(--MidBlue);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+    
+
+/* WORK HEADER */
+.workHeader{
+    flex: 0 1 12.5%; 
+    position: relative;
+    padding-right: 3%;
+    border-right: 3px solid #2a2840;
+    font-size: 5vw;
+    height: 1670px;
+}
+    
+    
+    
+    
+/* GIANT DIV NEXT TO WORK HEADER */
+.workContainer{
+    flex: 1 1 80%;
+}
+div:hover{
+    zoom: 120%;
+}
+.workDivBig{
+    background-size: cover;
+    display: flex;
+    /* background-size: 120%; */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(../images/website.png);
+    border: 10px var(--SkyBlue) solid;
+    position: relative;
+    margin-left: 3%;
+    height: 800px;
+    flex: 0 1 50%;
+}
+
+
+
+
+    
+ 
+   
+   
+
+
+    
+/* SMALLER DIVS CONTAINER */
+.bottomBoxes{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+
+ /* SMALLER DIVS  */
+ .workDivs{
+    height: 400px;
+    border: 5px solid var(--SkyBlue);
+    position: relative;
+     flex: 1 1 47%;
+} 
+    
+    
+/* DIVS IN WORK CONTAINER */
+div{
+    display: flex;
+    align-items: flex-end;
+}
+
+/* h4 IN WORK CONTAINERS */
+h4{
+    color: #2a2840;
+    background-color:  lightskyblue;
+    flex: 0 1 15%;
+    font-size: 2.5em;
+}
+
+/* 2nd IMAGE */
+#ledWall{
+    background-image: url(../images/BelieveLED.jpg);
+   
+   position: relative;
+   background-position: center;
+}
+/* 3rd IMAGE */
+#calculatorImage{
+    background-image: url(../images/Calculator.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+/* 4th IMAGE */
+#puzzleImage{
+    background-image: url(../images/Puzzle.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/* 5th IMAGE */
+#runBuddyImage{
+    background-image: url(../images/RunBuddy.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+    
+    
+    
+
+/* FOOTER CONTAINER */
+ footer{
+    color: aliceblue;
+    background-color: rgb(42, 40, 64);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+/* CONTACT ME HEADER IN FOOTER */
+.contactFooter{
+    color: #2a2840;
+    background-color:  lightskyblue;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-right: 2%;
+    z-index: 1;
+    font-size: 2.5em;
+
+}
+
+/* NAV IN FOOTER */
+.footerNavList{
+    flex: 0 1 50%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #87cefa;
+    text-decoration: underline;
+    list-style: none;
+    padding-top: 2%;
+    padding-right: 2%;
+    height: 100%;
+    font-size: 1.5em;
+    gap: 3%;
+    margin: 0%;
+    justify-content: flex-end;
+    display: flex;
+
+}
+
+@media screen and (max-width: 1066px) {
+    .footerNavList{
+        font-size: 5vh;
+        flex-direction: column;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 690px) {
+.footerNavList{
+    font-size: 5vh;
+    flex-direction: column;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+    .aboutMe{
+        flex-wrap: wrap;
+        padding-right: 0%;
+        
+    }
+
+    .aboutHeader{
+        flex: none;
+        font-size: 7vh;
+        
+    }
+
+    .workDivBig{
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .aboutHeader{
+        font-size: 7vh;
+    }
+}
+
+@media screen and (max-width: 450px){
+    html{
+        width: 55vh;
+    }
+    .footerNavList{
+        flex-direction: column;
+        font-size: 10vw;
+    }
+}
+   
+
